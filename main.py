@@ -19,3 +19,4 @@ try:
         file_data = file_data[0:word_index] + replace_word + file_data[word_index+len(find_word):]
 except:
   print("File not found !!!")
+  time.sleep(5)
